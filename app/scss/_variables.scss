@@ -1,0 +1,61 @@
+// COLORS
+$color--white: #ffffff;
+$color--black: #000000;
+$color--red  : #cf3b3b;
+
+
+$color--light-background: $color--white;
+$color--dark-background: $color--black;
+
+$color--card-white: $color--white;
+$color--card-black: $color--black;
+
+
+$color--card-placeholder: darken($color--light-background, 30%);
+
+$color--scoreboard-row: lighten($color--dark-background, 30%);
+
+$color--accent: #0cd17f;
+$color--light-accent: lighten($color--accent, 10%);
+$color--dark-accent: darken($color--accent, 10%);
+$color--light-player-score: lighten($color--accent,40%);
+$color--dark-player-score: lighten($color--accent,35%);
+
+// DIMENSIONS
+$size: 1rem;
+
+$size--font: $size;
+
+//EDIT THESE
+$mobile-portrait-size-scalar: 4.5vw;
+$mobile-landscape-size-scalar: 3.4vh;
+$desktop-landscape-size-scalar: 2.5vh;
+//AND THESE
+$size--font-card-mobile-portrait: 3.6vw;
+$size--font-card-mobile-landscape: 2.6vh;
+$size--font-card-desktop-landscape: 1.8vh;
+// MAYBE NOT THIS
+$size--cards-padding: $size/2;
+// EDIT THESE  FOR PADDING
+$size--cards-padding-mobile-portrait: $size--cards-padding*2;
+$size--cards-padding-mobile-landscape: $size--cards-padding*1.6;
+$size--cards-padding-desktop-landscape: $size--cards-padding*2.5;
+// STOP
+$size--button-padding: $size/2;
+$size--button-margin: $size/5;
+
+$card-height: 11;
+$card-width: 8;
+
+$size--card-border-radius: $size/2;
+
+$size--card-height-mobile-portrait: $card-height*$mobile-portrait-size-scalar;
+$size--card-width-mobile-portrait: $card-width*$mobile-portrait-size-scalar;
+$size--card-height-mobile-landscape: $card-height*$mobile-landscape-size-scalar;
+$size--card-width-mobile-landscape: $card-width*$mobile-landscape-size-scalar;
+$size--card-height-desktop-landscape: $card-height*$desktop-landscape-size-scalar;
+$size--card-width-desktop-landscape: $card-width*$desktop-landscape-size-scalar;
+
+//FONTS
+$font: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-title: 'Rubik', Helvetica, Arial, sans-serif;

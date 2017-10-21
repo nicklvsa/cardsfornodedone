@@ -1,0 +1,86 @@
+//MOBILE LANDSCAPE
+@media screen and 
+(max-height:499px) and
+(min-aspect-ratio: 12/7) {
+    // home.html
+    .home {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: space-evenly;
+        .box {
+            width: 40%;
+            height: 100%;
+        }
+
+    }
+    // game.html
+    .white-card, .black-card {
+        height: $size--card-height-mobile-landscape;
+        width: $size--card-width-mobile-landscape;
+        &__text {
+            padding: $size--cards-padding-mobile-landscape;          
+            font-size: $size--font-card-mobile-landscape;
+        }
+        &__pick {
+            font-size: 0.8*$size--font-card-mobile-landscape !important;                
+        }
+    }
+    .cards__item {
+        height: $size--card-height-mobile-landscape !important;
+    }
+    .highlight {
+        &__cards {
+            width: 100%;
+            flex-flow: row;
+            justify-content: center;
+            .black-card, .cards {
+                height: $size--card-height-mobile-landscape;                
+                margin: 0 $size--cards-padding*3;
+                align-self: center;
+                
+            }
+        }
+    }
+}
+// DESKTOP
+@media screen and 
+(min-width:500px) and (min-height:500px) {
+    
+    // home.html
+    .home {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        .box {
+            width: 20rem;
+        }
+    }
+    
+    // game.html
+    .white-card, .black-card {
+        height: $size--card-height-desktop-landscape;
+        width: $size--card-width-desktop-landscape;
+        &__text {
+            padding: $size--cards-padding-desktop-landscape;            
+            font-size: $size--font-card-desktop-landscape;
+        }
+        &__pick {
+            font-size: 0.8*$size--font-card-desktop-landscape !important;                
+        }
+    }
+    .cards__item {
+        height: $size--card-height-desktop-landscape !important;
+    }
+    .highlight {
+        &__cards {
+            width: 100%;
+            flex-flow: row;
+            justify-content: center;
+            .black-card, .cards {
+                margin: 0 $size--cards-padding*4;
+                height: $size--card-height-desktop-landscape;                
+                align-self: center;
+            }
+        }
+    }
+}
