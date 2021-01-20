@@ -22,7 +22,7 @@
   "homepage": "https://github.com/QUB3X/CAHOnline#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "socket.io": "^2.0.3"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
